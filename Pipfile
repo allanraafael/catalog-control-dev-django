@@ -9,6 +9,7 @@ django-environ = "*"
 djangorestframework = "*"
 django-filter = "*"
 psycopg2 = "*"
+django-rest-knox = "*"
 
 [dev-packages]
 

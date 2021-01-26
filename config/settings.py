@@ -79,7 +79,7 @@ DATA_UPLOAD_MAX_MEMORY_SIZE = 5242880
 # Application definition
 # -----------------------------------------------------------------------------
 INSTALLED_APPS = [
-    # Django admin
+    # Standard Django libraries
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -89,7 +89,11 @@ INSTALLED_APPS = [
 
     # Project apps
     'catalog.apps.CatalogConfig',
+
+    # Libraries
+    'knox',
     'rest_framework',
+
 ]
 
 
